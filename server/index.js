@@ -10,11 +10,12 @@ const app = express();
 // every route from the postRoutes will have a directory prefix of /posts
 // first parameter: starting path for all the routes: /posts
 // second parameter: Express middleware object
-app.use('/posts', postRoutes);
+
 
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
+app.use('/posts', postRoutes);
 
 /* https://www/mongodb.com/cloud/atlas
     This is the cloud version of mongo where they will be hosting the db for our application.
