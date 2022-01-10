@@ -1,8 +1,6 @@
 // create all of the handlers for our routes
-
 import mongoose from "mongoose";
 import PostMessage from "../models/postMessage.js"
-
 
 export const getPosts = async (req, res) => {
   try {
@@ -39,4 +37,15 @@ export const updatePost = async (req, res) => {
   const updatedPost = await PostMessage.findByIdAndUpdate(_id, {...post, _id}, {new: true})
 
   res.json(updatedPost) // use this to send the json to the client side
+}
+
+export const deletePost = async (req, res) => {
+  const {id} = req.params;
+
+  if(!mongoose.Types.ObjectId.isValid(id)) 
+    return res.status(404).send('No post with such ID')
+
+  await PostMessage.findByIdAndRemove(id)
+
+  res.json({message: 'Post Deleted Successfully'})
 }
