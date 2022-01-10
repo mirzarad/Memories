@@ -16,6 +16,7 @@ export default makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     background: '-webkit-linear-gradient(#fbfcfe, #d6d6d6)',
+    'border-radius': '20px'
   },
   form: {
     display: 'flex',
