@@ -90,7 +90,7 @@ const Form = ({currentId, setCurrentId}) => {
           color="primary"
           size= "large"
           type="submit"
-          fullWidth>Submit</Button>
+          fullWidth>S u b m i t</Button>
 
         <Button
           className={classes.buttonClear} 
@@ -98,7 +98,7 @@ const Form = ({currentId, setCurrentId}) => {
           color="secondary"
           size= "small"
           onClick={clear}
-          fullWidth>Clear</Button>
+          fullWidth>C l e a r</Button>
 
       </form>
     </Paper>

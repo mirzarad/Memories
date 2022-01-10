@@ -27,13 +27,13 @@ export default makeStyles((theme) => ({
     margin: '10px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
+    marginBottom: 15,
     background: '-webkit-linear-gradient(#66b3ff, #0080ff)',
-    'font-family': 'Pacifico, cursive',
+    'font-family': 'Quicksand, sans-serif'
   },
   buttonClear: {
     marginBottom: 10,
     background: '-webkit-linear-gradient(#f77777, #f71d00)',
-    'font-family': 'Pacifico, cursive',
+    'font-family': 'Quicksand, sans-serif'
   }
 }));
