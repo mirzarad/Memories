@@ -21,7 +21,7 @@ app.use('/posts', postRoutes);
     This is the cloud version of mongo where they will be hosting the db for our application.
 */
 
-const CONNECTION_URL = 'mongodb+srv://<username>:<password>@cluster0.b4k0e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://<username>:<password>!@cluster0.b4k0e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 const PORT = process.env.PORT || 5000;
 

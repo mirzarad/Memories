@@ -1,5 +1,5 @@
 import express from 'express';
-import { getPosts, createPost } from '../controllers/posts.js';
+import { getPosts, createPost, updatePost } from '../controllers/posts.js';
 
 
 const router = express.Router();
@@ -10,5 +10,6 @@ const router = express.Router();
 // second parameter is a callback function when the user accesses this route
 router.get('/', getPosts);
 router.post('/', createPost);
+router.patch('/:id', updatePost);
 
 export default router;

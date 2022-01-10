@@ -43,6 +43,10 @@ export default makeStyles({
   },
   title: {
     padding: '0 16px',
+    'font-size': 'large'
+  },
+  message: {
+    'font-size': 'small'
   },
   cardActions: {
     padding: '0 16px 8px 16px',

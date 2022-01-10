@@ -6,8 +6,16 @@ export default makeStyles((theme) => ({
       margin: theme.spacing(2),
     },
   },
+  formTitle: {
+    color: '#d1e4ee',
+    background: '-webkit-linear-gradient(#66b3ff, #0080ff)',
+    'font-family': 'Pacifico, cursive',
+    '-webkit-background-clip': 'text',
+    '-webkit-text-fill-color': 'transparent'
+  },
   paper: {
     padding: theme.spacing(2),
+    background: '-webkit-linear-gradient(#fbfcfe, #d6d6d6)',
   },
   form: {
     display: 'flex',
@@ -20,5 +28,12 @@ export default makeStyles((theme) => ({
   },
   buttonSubmit: {
     marginBottom: 10,
+    background: '-webkit-linear-gradient(#66b3ff, #0080ff)',
+    'font-family': 'Pacifico, cursive',
   },
+  buttonClear: {
+    marginBottom: 10,
+    background: '-webkit-linear-gradient(#f77777, #f71d00)',
+    'font-family': 'Pacifico, cursive',
+  }
 }));
