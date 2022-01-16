@@ -2,7 +2,8 @@
 
 🧠 A MERN Full Stack social media site that allows you to upload posts of pictures of your memories.
 
-Observer the .env.example file:
+Install instructions
+Observe the .env.example file:
 
 ### Make sure to add a port number and your own respective mongodb connection url.
 
