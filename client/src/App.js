@@ -12,7 +12,6 @@ const App = () => {
 
   // Grab the ID from App.js because it is the parent to both Form.js and Post.js
 
-
   const classes = useStyles();
   const dispatch = useDispatch();
   const [currentId, setCurrentId] = useState(null)
