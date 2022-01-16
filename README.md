@@ -16,4 +16,4 @@ V2.0 - Authorization: Login with Email (JWT) + Google OAuth <br />
 V3.0 - Pagination & Search <br />
 V4.0 - Comments <br />
 
-![alt text](Memories-Screenshot.JPG 'Memories')
+![alt text](Memories-Screenshot.png 'Memories')
