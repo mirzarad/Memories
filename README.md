@@ -9,6 +9,9 @@ Observe the .env.example file:
 
 Release timeline: <br />
 V1.0 - Basic CRUD Demo Version <br />
+
+# LIVE: https://memories-mern-v1.netlify.app/
+
 V2.0 - Authorization: Login with Email (JWT) + Google OAuth <br />
 V3.0 - Pagination & Search <br />
 V4.0 - Comments <br />
